@@ -10,5 +10,5 @@ FROM    wp_posts a
         HAVING  COUNT(*) > 1
     ) b ON  a.post_date = b.post_date
         
-WHERE a.post_name LIKE '%-2%'
+WHERE a.post_name LIKE '%-2'
 AND a.ID > b.ID
