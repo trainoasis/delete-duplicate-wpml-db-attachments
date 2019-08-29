@@ -2,7 +2,7 @@
 
 This command removes duplicate attachment entries from Wordpress database (same name in DB but a different ID), which happens when you remove WPML plugin (reset!). 
 
-__Steps to execute:__
+## Steps to execute: ##
 
 0. Make a backup of your database.
 1. Go into your favourite Mysql admin or CLI.
