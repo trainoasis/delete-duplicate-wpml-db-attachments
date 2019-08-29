@@ -1,2 +1,6 @@
-# delete-duplicate-wpml-db-attachments
-MySQL that removes duplicate attachments from Wordpress database, which usually happens if you totally remove WPML (reset).  
+# Delete duplicate attachments from Wordpress database
+
+This command removes duplicate attachment entries from Wordpress database (same name in DB but a different ID), which happens when you remove WPML plugin (reset!). 
+
+** ALWAYS TEST THE COMMAND WITH ONLY SELECT STATEMENT (example provided)**
+
