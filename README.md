@@ -10,3 +10,13 @@ __Steps to execute:__
 3. If satisfied with step 2 results, execute command from `delete.sql`. 
 
 EXECUTE AT YOUR OWN RISK. Be smart and always make a backup of your DB before doing anything. 
+
+## If you have more than 2 same attchments shown in Media Library
+You can just adjust the code from `delete.sql` to 
+
+```
+WHERE a.post_name LIKE '%-2'
+     OR a.post_name LIKE '%-3'
+     OR a.post_name LIKE '%-4'
+     OR a.post_name LIKE '%-5'
+ ```
